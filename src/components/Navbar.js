@@ -19,10 +19,10 @@ function Navbar() {
 //     }
 // },[])
   return (
-          <Grid w='100%'>
+          <Grid w='100%' >
         <Stack 
         direction="row" 
-        bg='blue.300' 
+        bg='red.300' 
         fontWeight='semibold'  
         h='40px' spacing='20px'>
            {/* <IconButton as={<SideBar/>}/> */}
@@ -32,14 +32,14 @@ function Navbar() {
             {/* <Button onClick={cambiarModo}/> */}
        <NavLink to="/Home">
        <Box fontSize='3xl' 
-       color='red.500'>Gonzalo Angel Palacio</Box>
+       color='black'>Gonzalo Angel Palacio</Box>
        </NavLink>
        <Divider orientation='vertical' />
        <NavLink to="/Projects">
-           <Box fontSize='2xl'>Projects</Box>
+           <Box fontSize='2xl' color='gray.100'>Projects</Box>
        </NavLink>
        <NavLink to="/Contact">
-           <Box fontSize='2xl'>Contact</Box>
+           <Box fontSize='2xl'color='gray.100'>Contact</Box>
        </NavLink>
        </Stack>
        </Grid>

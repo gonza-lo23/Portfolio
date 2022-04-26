@@ -5,8 +5,12 @@ import Hero from './Hero'
 
 function Projects() {
   return (
-    
-     <Body2/>
+     <Stack
+     p='10'
+     >
+
+       <Body2/>
+     </Stack>
   )
 }
 

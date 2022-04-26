@@ -4,7 +4,7 @@ import { Image,Grid,Container,Stack,Box,Text, StackDivider, GridItem, Button} fr
 function Footer() {
   return (
     <Box 
-    bg='blue.500'
+    bg='tomato'
     w='100%'
     h='50px'>
     <Text
